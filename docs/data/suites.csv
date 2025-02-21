@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11302","test_addcustomer","","Fri Feb 21 18:09:52 IST 2025","broken","Fri Feb 21 18:10:03 IST 2025","TestAutomation","test_main","",""
+"","7664","test_login","","Fri Feb 21 18:09:44 IST 2025","passed","Fri Feb 21 18:09:52 IST 2025","TestAutomation","test_main","",""
+"","3109","test_login","","Fri Feb 21 18:10:08 IST 2025","passed","Fri Feb 21 18:10:11 IST 2025","TestAutomation","test_check","",""
