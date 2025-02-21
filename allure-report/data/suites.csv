@@ -1,5 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","11168","test_addcustomer","","Thu Feb 20 13:06:13 IST 2025","broken","Thu Feb 20 13:06:24 IST 2025","TestAutomation","test","",""
-"","1768","test_login2","","Thu Feb 20 13:06:41 IST 2025","passed","Thu Feb 20 13:06:42 IST 2025","","test_wealth","",""
-"","8383","test_login","","Thu Feb 20 13:06:05 IST 2025","passed","Thu Feb 20 13:06:13 IST 2025","TestAutomation","test","",""
-"","2109","test_login","","Thu Feb 20 13:06:29 IST 2025","passed","Thu Feb 20 13:06:31 IST 2025","","test_wealth","",""
