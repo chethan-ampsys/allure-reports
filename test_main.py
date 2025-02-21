@@ -27,9 +27,9 @@ class TestAutomation:
         print("Current URL:", self.driver.current_url)
 
         self.driver.switch_to.frame(self.wait.until(EC.presence_of_element_located((By.XPATH, "//iframe[@id='mainframe']"))))
-        self.wait.until(EC.presence_of_element_located((By.ID, "ctrl_Userlogin_txtLoginId"))).send_keys("abccompany")
-        self.wait.until(EC.presence_of_element_located((By.ID, "ctrl_Userlogin_txtPassword"))).send_keys("abc1234$")
-        self.wait.until(EC.presence_of_element_located((By.ID, "ctrl_Userlogin_btnSignIn"))).click()
+        self.wait.until(EC.presence_of_element_located((By.XPATH, "//input[@id='ctrl_Userlogin_txtLoginId']"))).send_keys("abccompany")
+        self.wait.until(EC.presence_of_element_located((By.XPATH, "//input[@id='ctrl_Userlogin_txtPassword']"))).send_keys("abc1234$")
+        self.wait.until(EC.presence_of_element_located((By.XPATH, "//input[@id='ctrl_Userlogin_btnSignIn']"))).click()
 
         time.sleep(5)
         self.driver.save_screenshot("login_success.png")
