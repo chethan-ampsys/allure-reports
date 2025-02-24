@@ -1,2 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"This test case verifies the login functionality with correct credentials.","6147","test_login","","Mon Feb 24 12:13:02 IST 2025","passed","Mon Feb 24 12:13:08 IST 2025","TestAutomation","test_check","",""
