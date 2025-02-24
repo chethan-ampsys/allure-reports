@@ -1,1 +1,0 @@
-Expected Result: User should be able to log in successfully
