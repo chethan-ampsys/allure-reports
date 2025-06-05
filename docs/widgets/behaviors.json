@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"ca41e5d388fd07e5d0e3d67578e8a4c4","name":"AJIO Website","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
+{"total":2,"items":[{"uid":"ca41e5d388fd07e5d0e3d67578e8a4c4","name":"AJIO Website","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"7dae41a765460598b1ccdb3ee468c254","name":"XEED_Ventures_Login_Page","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
