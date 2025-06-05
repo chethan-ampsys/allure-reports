@@ -5,24 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7d1cc7e-a965-4ffe-88fa-63199fbb25c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TestingProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/12fcc551-72d0-4977-98b9-4f52ae2b9433-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/66188829-20e2-48da-a34c-dcbe5b670379-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a63c4fdd-3cc6-40de-8bc4-a1d9e7a079a9-attachment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC001.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data/attachments/165b6226ae72ccbc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data/test-cases/6d3a4c7341dd09bf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/widgets/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/widgets/summary.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
