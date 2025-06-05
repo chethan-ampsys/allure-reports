@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7d1cc7e-a965-4ffe-88fa-63199fbb25c5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC001.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/attachments/165b6226ae72ccbc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/test-cases/6d3a4c7341dd09bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/widgets/summary.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="2048" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2rW7FreSbZkM9DP6lqEMkICerwH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/sagar/PycharmProjects/TestingProject",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="TestingProject" is-module-sdk="true">
+        <envs>
+          <env key="Path" value="C:\Users\sagar\Downloads\ffmpeg\ffmpeg 2025\bin" />
+        </envs>
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="TestingProject" />
+        <option name="myEnvs">
+          <map>
+            <entry key="Path" value="C:\Users\sagar\Downloads\ffmpeg\ffmpeg 2025\bin" />
+          </map>
+        </option>
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in Test_TC001.py">
+    <configuration name="test_main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="TestingProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\sagar\PycharmProjects\TestingProject\test_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_check.test_site" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TestingProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_check.test_site&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_main.TestAutomation.test_addcustomer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TestingProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main.TestAutomation.test_addcustomer&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_main.TestAutomation.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TestingProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main.TestAutomation.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in C:/Users/sagar/PycharmProjects/TestingProject/test_main.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TestingProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_main.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in Test_TC001.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="TestingProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xeed_Login_Page" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Xeed_Login_Page/Test_TC001.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in Test_TC001.py" />
+        <item itemvalue="Python tests.Python tests for test_check.test_site" />
+        <item itemvalue="Python tests.Python tests for test_main.TestAutomation.test_addcustomer" />
+        <item itemvalue="Python tests.Python tests in C:/Users/sagar/PycharmProjects/TestingProject/test_main.py" />
+        <item itemvalue="Python tests.Python tests for test_main.TestAutomation.test_login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7d1cc7e-a965-4ffe-88fa-63199fbb25c5" name="Changes" comment="" />
+      <created>1736662876517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736662876517</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
