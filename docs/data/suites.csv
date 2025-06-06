@@ -5,13 +5,6 @@ Verify that a user can successfully log in using valid credentials (username: Ro
 
 **Expected Result:**  
 User is redirected to the dashboard page after successful login.
-","15004","TC001 - Successful Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 13:19:21 IST 2025","passed","Fri Jun 06 13:19:36 IST 2025","","Test_TC001","",""
-"
-**Test Scenario:**  
-Verify that a user can successfully log in using valid credentials (username: Rohit, password: Erp@123).
-
-**Expected Result:**  
-User is redirected to the dashboard page after successful login.
 ","12924","TC001 - Successful Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 13:18:47 IST 2025","passed","Fri Jun 06 13:19:00 IST 2025","","Test_TC001","",""
 "
 **Test Scenario:**  
@@ -19,4 +12,35 @@ Verify that a user can successfully log in using valid credentials (username: Ro
 
 **Expected Result:**  
 User is redirected to the dashboard page after successful login.
+","15004","TC001 - Successful Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 13:19:21 IST 2025","passed","Fri Jun 06 13:19:36 IST 2025","","Test_TC001","",""
+"
+**Test Scenario:**  
+Verify that a user can successfully log in using valid credentials (username: Rohit, password: Erp@123).
+
+**Expected Result:**  
+User is redirected to the dashboard page after successful login.
 ","12219","TC001 - Successful Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 13:19:44 IST 2025","passed","Fri Jun 06 13:19:57 IST 2025","","Test_TC001","",""
+"
+**Test Scenario:**  
+Attempt to log in with an incorrect password (username: Rohit, password: 99027).
+
+**Expected Result:**  
+User should NOT be redirected to the dashboard.  
+An 'Invalid credentials' message should be displayed.
+","13375","TC002 - Login Failure with Invalid Username","Xeed_Login_Page","Fri Jun 06 14:40:15 IST 2025","failed","Fri Jun 06 14:40:28 IST 2025","","Test_TC002","",""
+"
+**Test Scenario:**  
+Attempt to log in with an incorrect password (username: Rohit, password: 99027).
+
+**Expected Result:**  
+User should NOT be redirected to the dashboard.  
+An 'Invalid credentials' message should be displayed.
+","12793","TC002 - Login Failure with Invalid Username","Xeed_Login_Page","Fri Jun 06 14:40:39 IST 2025","failed","Fri Jun 06 14:40:52 IST 2025","","Test_TC002","",""
+"
+**Test Scenario:**  
+Attempt to log in with an incorrect password (username: Rohit, password: 99027).
+
+**Expected Result:**  
+User should NOT be redirected to the dashboard.  
+An 'Invalid credentials' message should be displayed.
+","14018","TC002 - Login Failure with Invalid Username","Xeed_Login_Page","Fri Jun 06 14:39:41 IST 2025","failed","Fri Jun 06 14:39:55 IST 2025","","Test_TC002","",""
