@@ -1,54 +1,6 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "
 **Test Scenario:**  
-Attempt to log in using an invalid password  
-Username: Rohit  
-Password: 9902@KM
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12700","TC003 - Login with Invalid Password","Xeed_Login_Page","Fri Jun 06 16:24:33 IST 2025","failed","Fri Jun 06 16:24:46 IST 2025","","Test_TC003","",""
-"
-**Test Scenario:**  
-Attempt to log in using an invalid password  
-Username: Rohit  
-Password: 9902@KM
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12020","TC003 - Login with Invalid Password","Xeed_Login_Page","Fri Jun 06 16:24:56 IST 2025","failed","Fri Jun 06 16:25:08 IST 2025","","Test_TC003","",""
-"
-**Test Scenario:**  
-Attempt to log in using empty username  
-Username: 
-Password: Erp@123
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12179","TC005 - Login with Empty Username","Xeed_Login_Page","Fri Jun 06 16:26:20 IST 2025","failed","Fri Jun 06 16:26:32 IST 2025","","Test_TC005","",""
-"
-**Test Scenario:**  
-Attempt to log in using empty credentials  
-Username:
-Password: 
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","13456","TC007- Login with Empty Credentials","Xeed_Login_Page","Fri Jun 06 17:17:24 IST 2025","failed","Fri Jun 06 17:17:37 IST 2025","","Test_TC007","",""
-"
-**Test Scenario:**  
 Attempt to log in using an invalid credentials  
 Username: Ohitr
 Password: 9902@KM
@@ -58,7 +10,85 @@ User should not be able to log in.
 
 **How it is evaluated:**  
 This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12455","TC004 - Login with Invalid Credentials","Xeed_Login_Page","Fri Jun 06 16:26:02 IST 2025","failed","Fri Jun 06 16:26:14 IST 2025","","Test_TC004","",""
+","12563","TC004 - Login with Invalid Credentials","Xeed_Login_Page","Fri Jun 06 16:25:41 IST 2025","failed","Fri Jun 06 16:25:54 IST 2025","","Test_TC004","",""
+"
+**Test Type**
+Funtional and cross browser
+
+**Test Scenario**
+Will try to change password using invalid email
+
+**Expected Result**
+Shouldn't be able to change the password
+
+**How it is evaluated**
+Will check 'Password Reset Failed' text displayed on the screen or not
+
+**Test will fail if the functionality is working properly**
+","6686","TC009 - Try to change the password using invalid email","Xeed_Login_Page","Mon Jun 16 17:06:23 IST 2025","passed","Mon Jun 16 17:06:30 IST 2025","","Test_TC010","",""
+"
+**Test Scenario:**  
+Attempt to log in using a valid credentials
+Username: Rohit  
+Password: Erp@123
+
+**Expected Result:**  
+User should be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12156","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:22:37 IST 2025","passed","Fri Jun 06 16:22:50 IST 2025","","Test_TC001","",""
+"
+**Test Scenario**
+Check if submit button is clickable or not when all the fields are left empty
+
+**How it is evaluated**
+
+","2005","TC012- Checking the enablement of submit button for unfilled fields in forgot password","Xeed_Login_Page","Mon Jun 16 18:02:38 IST 2025","failed","Mon Jun 16 18:02:40 IST 2025","","Test_TC012","",""
+"
+**Test Type**
+Funtional and cross browser
+
+**Test Scenario**
+New password is created using forgot password but still try to login using old password to check whether old password is still in place or not
+
+**Expected Result**
+Shouldn't be able to login using old password
+
+**How it is evaluated*8
+Will check whether url adds ""/dashboard"" at the end of url after logging in if it doesnt add it means its working as expected
+","12411","TC009 - Logging in using old password after creating new password","Xeed_Login_Page","Mon Jun 16 16:42:08 IST 2025","failed","Mon Jun 16 16:42:20 IST 2025","","Test_TC009","",""
+"
+**Test Scenario:**  
+Attempt to log in using an invalid password  
+Username: Rohit  
+Password: 9902@KM
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12850","TC003 - Login with Invalid Password","Xeed_Login_Page","Fri Jun 06 16:24:05 IST 2025","failed","Fri Jun 06 16:24:18 IST 2025","","Test_TC003","",""
+"
+**Test Scenario**
+Create new password using forgot password and login using the new password to check whether it is working or not 
+
+**Expected Result**
+It should be able to login with the new passowrd created using forgot passowrd
+","3974","TC008-Checking Forgot password functionality","Xeed_Login_Page","Mon Jun 16 15:52:42 IST 2025","passed","Mon Jun 16 15:52:46 IST 2025","","Test_TC008","",""
+"
+**Test Scenario:**  
+Attempt to log in using an invalid username  
+Username: Ohitr  
+Password: Erp@123
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12711","TC002 - Login with Invalid Username","Xeed_Login_Page","Fri Jun 06 16:23:22 IST 2025","failed","Fri Jun 06 16:23:35 IST 2025","","Test_TC002","",""
 "
 **Test Scenario:**  
 Attempt to log in using empty password  
@@ -73,6 +103,74 @@ This is verified by checking the URL change; if the login is successful, the URL
 ","13247","TC006- Login with Empty Password","Xeed_Login_Page","Fri Jun 06 16:27:56 IST 2025","failed","Fri Jun 06 16:28:10 IST 2025","","Test_TC006","",""
 "
 **Test Scenario:**  
+Attempt to log in using an invalid password  
+Username: Rohit  
+Password: 9902@KM
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12020","TC003 - Login with Invalid Password","Xeed_Login_Page","Fri Jun 06 16:24:56 IST 2025","failed","Fri Jun 06 16:25:08 IST 2025","","Test_TC003","",""
+"
+**Test Type**
+Funtional and cross browser
+
+**Test Scenario**
+New password is created using forgot password but still try to login using old password to check whether old password is still in place or not
+
+**Expected Result**
+Shouldn't be able to login using old password
+
+**How it is evaluated*8
+Will check whether url adds ""/dashboard"" at the end of url after logging in if it doesnt add it means its working as expected
+","13027","TC009 - Logging in using old password after creating new password","Xeed_Login_Page","Mon Jun 16 16:41:11 IST 2025","failed","Mon Jun 16 16:41:24 IST 2025","","Test_TC009","",""
+"
+**Test Scenario:**  
+Attempt to log in using empty password  
+Username: Rohit 
+Password: 
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12903","TC006- Login with Empty Password","Xeed_Login_Page","Fri Jun 06 16:27:29 IST 2025","failed","Fri Jun 06 16:27:41 IST 2025","","Test_TC006","",""
+"
+**Test Scenario**
+Check if submit button is clickable or not when all the fields are left empty
+
+**How it is evaluated**
+
+","1636","TC012- Checking the enablement of submit button for unfilled fields in forgot password","Xeed_Login_Page","Mon Jun 16 18:02:18 IST 2025","failed","Mon Jun 16 18:02:20 IST 2025","","Test_TC012","",""
+"
+**Test Type**
+Funtional and cross-browser
+
+**Test Scenario**
+Validate the 'Password do not match' text displayed when different passwords are entered in new password and confirm password fields.
+
+**How it is evaluated**
+Will check 'Password do not match' text displayed on the screen or not
+
+**Test will pass if it is evaluated**
+","2368","TC009 - Validating 'Passwords do not match' Text for different passwords","Xeed_Login_Page","Mon Jun 16 17:39:46 IST 2025","passed","Mon Jun 16 17:39:49 IST 2025","","Test_TC011","",""
+"
+**Test Scenario:**  
+Attempt to log in using an invalid password  
+Username: Rohit  
+Password: 9902@KM
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12700","TC003 - Login with Invalid Password","Xeed_Login_Page","Fri Jun 06 16:24:33 IST 2025","failed","Fri Jun 06 16:24:46 IST 2025","","Test_TC003","",""
+"
+**Test Scenario:**  
 Attempt to log in using empty credentials  
 Username:
 Password: 
@@ -82,19 +180,7 @@ User should not be able to log in.
 
 **How it is evaluated:**  
 This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12180","TC007- Login with Empty Credentials","Xeed_Login_Page","Fri Jun 06 17:17:46 IST 2025","failed","Fri Jun 06 17:17:58 IST 2025","","Test_TC007","",""
-"
-**Test Scenario:**  
-Attempt to log in using an invalid username  
-Username: Ohitr  
-Password: Erp@123
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12711","TC002 - Login with Invalid Username","Xeed_Login_Page","Fri Jun 06 16:23:22 IST 2025","failed","Fri Jun 06 16:23:35 IST 2025","","Test_TC002","",""
+","13456","TC007- Login with Empty Credentials","Xeed_Login_Page","Fri Jun 06 17:17:24 IST 2025","failed","Fri Jun 06 17:17:37 IST 2025","","Test_TC007","",""
 "
 **Test Type**
 Funtional and cross-browser
@@ -109,6 +195,134 @@ Will check 'Password do not match' text displayed on the screen or not
 ","2290","TC009 - Validating 'Passwords do not match' Text for different passwords","Xeed_Login_Page","Mon Jun 16 17:39:15 IST 2025","passed","Mon Jun 16 17:39:18 IST 2025","","Test_TC011","",""
 "
 **Test Scenario:**  
+Attempt to log in using a valid credentials
+Username: Rohit  
+Password: Erp@123
+
+**Expected Result:**  
+User should be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12384","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:21:50 IST 2025","passed","Fri Jun 06 16:22:02 IST 2025","","Test_TC001","",""
+"
+**Test Scenario**
+Create new password using forgot password and login using the new password to check whether it is working or not 
+
+**Expected Result**
+It should be able to login with the new passowrd created using forgot passowrd
+","5987","TC008-Checking Forgot password functionality","Xeed_Login_Page","Mon Jun 16 15:52:04 IST 2025","passed","Mon Jun 16 15:52:10 IST 2025","","Test_TC008","",""
+"
+**Test Type**
+Funtional and cross browser
+
+**Test Scenario**
+Will try to change password using invalid email
+
+**Expected Result**
+Shouldn't be able to change the password
+
+**How it is evaluated**
+Will check 'Password Reset Failed' text displayed on the screen or not
+
+**Test will fail if the functionality is working properly**
+","4846","TC009 - Try to change the password using invalid email","Xeed_Login_Page","Mon Jun 16 17:07:05 IST 2025","passed","Mon Jun 16 17:07:10 IST 2025","","Test_TC010","",""
+"
+**Test Scenario:**  
+Attempt to log in using empty username  
+Username: 
+Password: Erp@123
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12179","TC005 - Login with Empty Username","Xeed_Login_Page","Fri Jun 06 16:26:20 IST 2025","failed","Fri Jun 06 16:26:32 IST 2025","","Test_TC005","",""
+"
+**Test Scenario:**  
+Attempt to log in using a valid credentials
+Username: Rohit  
+Password: Erp@123
+
+**Expected Result:**  
+User should be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12427","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:22:17 IST 2025","passed","Fri Jun 06 16:22:29 IST 2025","","Test_TC001","",""
+"
+**Test Type**
+Funtional and cross browser
+
+**Test Scenario**
+Will try to change password using invalid email
+
+**Expected Result**
+Shouldn't be able to change the password
+
+**How it is evaluated**
+Will check 'Password Reset Failed' text displayed on the screen or not
+
+**Test will fail if the functionality is working properly**
+","4305","TC009 - Try to change the password using invalid email","Xeed_Login_Page","Mon Jun 16 17:06:45 IST 2025","passed","Mon Jun 16 17:06:49 IST 2025","","Test_TC010","",""
+"
+**Test Scenario:**  
+Attempt to log in using empty username  
+Username: 
+Password: Erp@123
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","13152","TC005 - Login with Empty Username","Xeed_Login_Page","Fri Jun 06 16:26:49 IST 2025","failed","Fri Jun 06 16:27:02 IST 2025","","Test_TC005","",""
+"
+**Test Type**
+Funtional and cross-browser
+
+**Test Scenario**
+Validate the 'Password do not match' text displayed when different passwords are entered in new password and confirm password fields.
+
+**How it is evaluated**
+Will check 'Password do not match' text displayed on the screen or not
+
+**Test will pass if it is evaluated**
+","3212","TC009 - Validating 'Passwords do not match' Text for different passwords","Xeed_Login_Page","Mon Jun 16 17:39:32 IST 2025","passed","Mon Jun 16 17:39:35 IST 2025","","Test_TC011","",""
+"
+**Test Scenario**
+Check if submit button is clickable or not when all the fields are left empty
+
+**How it is evaluated**
+
+","1530","TC012- Checking the enablement of submit button for unfilled fields in forgot password","Xeed_Login_Page","Mon Jun 16 18:02:50 IST 2025","failed","Mon Jun 16 18:02:51 IST 2025","","Test_TC012","",""
+"
+**Test Scenario:**  
+Attempt to log in using empty username  
+Username: 
+Password: Erp@123
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12437","TC005 - Login with Empty Username","Xeed_Login_Page","Fri Jun 06 16:27:10 IST 2025","failed","Fri Jun 06 16:27:22 IST 2025","","Test_TC005","",""
+"
+**Test Scenario:**  
+Attempt to log in using an invalid credentials  
+Username: Ohitr
+Password: 9902@KM
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12455","TC004 - Login with Invalid Credentials","Xeed_Login_Page","Fri Jun 06 16:26:02 IST 2025","failed","Fri Jun 06 16:26:14 IST 2025","","Test_TC004","",""
+"
+**Test Scenario:**  
 Attempt to log in using an invalid username  
 Username: Ohitr  
 Password: Erp@123
@@ -118,19 +332,14 @@ User should not be able to log in.
 
 **How it is evaluated:**  
 This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12540","TC002 - Login with Invalid Username","Xeed_Login_Page","Fri Jun 06 16:23:46 IST 2025","failed","Fri Jun 06 16:23:59 IST 2025","","Test_TC002","",""
+","12878","TC002 - Login with Invalid Username","Xeed_Login_Page","Fri Jun 06 16:22:56 IST 2025","failed","Fri Jun 06 16:23:09 IST 2025","","Test_TC002","",""
 "
-**Test Scenario:**  
-Attempt to log in using empty password  
-Username: Rohit 
-Password: 
+**Test Scenario**
+Create new password using forgot password and login using the new password to check whether it is working or not 
 
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12903","TC006- Login with Empty Password","Xeed_Login_Page","Fri Jun 06 16:27:29 IST 2025","failed","Fri Jun 06 16:27:41 IST 2025","","Test_TC006","",""
+**Expected Result**
+It should be able to login with the new passowrd created using forgot passowrd
+","5087","TC008-Checking Forgot password functionality","Xeed_Login_Page","Mon Jun 16 15:52:26 IST 2025","passed","Mon Jun 16 15:52:31 IST 2025","","Test_TC008","",""
 "
 **Test Type**
 Funtional and cross browser
@@ -155,38 +364,7 @@ User should not be able to log in.
 
 **How it is evaluated:**  
 This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","14550","TC007- Login with Empty Credentials","Xeed_Login_Page","Fri Jun 06 17:16:55 IST 2025","failed","Fri Jun 06 17:17:09 IST 2025","","Test_TC007","",""
-"
-**Test Type**
-Funtional and cross-browser
-
-**Test Scenario**
-Validate the 'Password do not match' text displayed when different passwords are entered in new password and confirm password fields.
-
-**How it is evaluated**
-Will check 'Password do not match' text displayed on the screen or not
-
-**Test will pass if it is evaluated**
-","2368","TC009 - Validating 'Passwords do not match' Text for different passwords","Xeed_Login_Page","Mon Jun 16 17:39:46 IST 2025","passed","Mon Jun 16 17:39:49 IST 2025","","Test_TC011","",""
-"
-**Test Scenario:**  
-Attempt to log in using a valid credentials
-Username: Rohit  
-Password: Erp@123
-
-**Expected Result:**  
-User should be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12427","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:22:17 IST 2025","passed","Fri Jun 06 16:22:29 IST 2025","","Test_TC001","",""
-"
-**Test Scenario**
-Create new password using forgot password and login using the new password to check whether it is working or not 
-
-**Expected Result**
-It should be able to login with the new passowrd created using forgot passowrd
-","5087","TC008-Checking Forgot password functionality","Xeed_Login_Page","Mon Jun 16 15:52:26 IST 2025","passed","Mon Jun 16 15:52:31 IST 2025","","Test_TC008","",""
+","12180","TC007- Login with Empty Credentials","Xeed_Login_Page","Fri Jun 06 17:17:46 IST 2025","failed","Fri Jun 06 17:17:58 IST 2025","","Test_TC007","",""
 "
 **Test Scenario:**  
 Attempt to log in using empty password  
@@ -200,187 +378,6 @@ User should not be able to log in.
 This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
 ","12455","TC006- Login with Empty Password","Xeed_Login_Page","Fri Jun 06 16:28:20 IST 2025","failed","Fri Jun 06 16:28:33 IST 2025","","Test_TC006","",""
 "
-**Test Scenario**
-Create new password using forgot password and login using the new password to check whether it is working or not 
-
-**Expected Result**
-It should be able to login with the new passowrd created using forgot passowrd
-","3974","TC008-Checking Forgot password functionality","Xeed_Login_Page","Mon Jun 16 15:52:42 IST 2025","passed","Mon Jun 16 15:52:46 IST 2025","","Test_TC008","",""
-"
-**Test Scenario:**  
-Attempt to log in using an invalid credentials  
-Username: Ohitr
-Password: 9902@KM
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12563","TC004 - Login with Invalid Credentials","Xeed_Login_Page","Fri Jun 06 16:25:41 IST 2025","failed","Fri Jun 06 16:25:54 IST 2025","","Test_TC004","",""
-"
-**Test Scenario:**  
-Attempt to log in using an invalid password  
-Username: Rohit  
-Password: 9902@KM
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12850","TC003 - Login with Invalid Password","Xeed_Login_Page","Fri Jun 06 16:24:05 IST 2025","failed","Fri Jun 06 16:24:18 IST 2025","","Test_TC003","",""
-"
-**Test Scenario**
-Create new password using forgot password and login using the new password to check whether it is working or not 
-
-**Expected Result**
-It should be able to login with the new passowrd created using forgot passowrd
-","5987","TC008-Checking Forgot password functionality","Xeed_Login_Page","Mon Jun 16 15:52:04 IST 2025","passed","Mon Jun 16 15:52:10 IST 2025","","Test_TC008","",""
-"
-**Test Type**
-Funtional and cross browser
-
-**Test Scenario**
-Will try to change password using invalid email
-
-**Expected Result**
-Shouldn't be able to change the password
-
-**How it is evaluated**
-Will check 'Password Reset Failed' text displayed on the screen or not
-
-**Test will fail if the functionality is working properly**
-","4846","TC009 - Try to change the password using invalid email","Xeed_Login_Page","Mon Jun 16 17:07:05 IST 2025","passed","Mon Jun 16 17:07:10 IST 2025","","Test_TC010","",""
-"
-**Test Type**
-Funtional and cross browser
-
-**Test Scenario**
-New password is created using forgot password but still try to login using old password to check whether old password is still in place or not
-
-**Expected Result**
-Shouldn't be able to login using old password
-
-**How it is evaluated*8
-Will check whether url adds ""/dashboard"" at the end of url after logging in if it doesnt add it means its working as expected
-","12411","TC009 - Logging in using old password after creating new password","Xeed_Login_Page","Mon Jun 16 16:42:08 IST 2025","failed","Mon Jun 16 16:42:20 IST 2025","","Test_TC009","",""
-"
-**Test Scenario:**  
-Attempt to log in using empty username  
-Username: 
-Password: Erp@123
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","13152","TC005 - Login with Empty Username","Xeed_Login_Page","Fri Jun 06 16:26:49 IST 2025","failed","Fri Jun 06 16:27:02 IST 2025","","Test_TC005","",""
-"
-**Test Type**
-Funtional and cross browser
-
-**Test Scenario**
-Will try to change password using invalid email
-
-**Expected Result**
-Shouldn't be able to change the password
-
-**How it is evaluated**
-Will check 'Password Reset Failed' text displayed on the screen or not
-
-**Test will fail if the functionality is working properly**
-","4305","TC009 - Try to change the password using invalid email","Xeed_Login_Page","Mon Jun 16 17:06:45 IST 2025","passed","Mon Jun 16 17:06:49 IST 2025","","Test_TC010","",""
-"
-**Test Scenario:**  
-Attempt to log in using a valid credentials
-Username: Rohit  
-Password: Erp@123
-
-**Expected Result:**  
-User should be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12384","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:21:50 IST 2025","passed","Fri Jun 06 16:22:02 IST 2025","","Test_TC001","",""
-"
-**Test Type**
-Funtional and cross-browser
-
-**Test Scenario**
-Validate the 'Password do not match' text displayed when different passwords are entered in new password and confirm password fields.
-
-**How it is evaluated**
-Will check 'Password do not match' text displayed on the screen or not
-
-**Test will pass if it is evaluated**
-","3212","TC009 - Validating 'Passwords do not match' Text for different passwords","Xeed_Login_Page","Mon Jun 16 17:39:32 IST 2025","passed","Mon Jun 16 17:39:35 IST 2025","","Test_TC011","",""
-"
-**Test Scenario:**  
-Attempt to log in using empty username  
-Username: 
-Password: Erp@123
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12437","TC005 - Login with Empty Username","Xeed_Login_Page","Fri Jun 06 16:27:10 IST 2025","failed","Fri Jun 06 16:27:22 IST 2025","","Test_TC005","",""
-"
-**Test Type**
-Funtional and cross browser
-
-**Test Scenario**
-New password is created using forgot password but still try to login using old password to check whether old password is still in place or not
-
-**Expected Result**
-Shouldn't be able to login using old password
-
-**How it is evaluated*8
-Will check whether url adds ""/dashboard"" at the end of url after logging in if it doesnt add it means its working as expected
-","13027","TC009 - Logging in using old password after creating new password","Xeed_Login_Page","Mon Jun 16 16:41:11 IST 2025","failed","Mon Jun 16 16:41:24 IST 2025","","Test_TC009","",""
-"
-**Test Scenario:**  
-Attempt to log in using a valid credentials
-Username: Rohit  
-Password: Erp@123
-
-**Expected Result:**  
-User should be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12156","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:22:37 IST 2025","passed","Fri Jun 06 16:22:50 IST 2025","","Test_TC001","",""
-"
-**Test Type**
-Funtional and cross browser
-
-**Test Scenario**
-Will try to change password using invalid email
-
-**Expected Result**
-Shouldn't be able to change the password
-
-**How it is evaluated**
-Will check 'Password Reset Failed' text displayed on the screen or not
-
-**Test will fail if the functionality is working properly**
-","6686","TC009 - Try to change the password using invalid email","Xeed_Login_Page","Mon Jun 16 17:06:23 IST 2025","passed","Mon Jun 16 17:06:30 IST 2025","","Test_TC010","",""
-"
-**Test Scenario:**  
-Attempt to log in using an invalid username  
-Username: Ohitr  
-Password: Erp@123
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12878","TC002 - Login with Invalid Username","Xeed_Login_Page","Fri Jun 06 16:22:56 IST 2025","failed","Fri Jun 06 16:23:09 IST 2025","","Test_TC002","",""
-"
 **Test Scenario:**  
 Attempt to log in using an invalid credentials  
 Username: Ohitr
@@ -392,3 +389,27 @@ User should not be able to log in.
 **How it is evaluated:**  
 This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
 ","11943","TC004 - Login with Invalid Credentials","Xeed_Login_Page","Fri Jun 06 16:25:14 IST 2025","failed","Fri Jun 06 16:25:26 IST 2025","","Test_TC004","",""
+"
+**Test Scenario:**  
+Attempt to log in using an invalid username  
+Username: Ohitr  
+Password: Erp@123
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12540","TC002 - Login with Invalid Username","Xeed_Login_Page","Fri Jun 06 16:23:46 IST 2025","failed","Fri Jun 06 16:23:59 IST 2025","","Test_TC002","",""
+"
+**Test Scenario:**  
+Attempt to log in using empty credentials  
+Username:
+Password: 
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","14550","TC007- Login with Empty Credentials","Xeed_Login_Page","Fri Jun 06 17:16:55 IST 2025","failed","Fri Jun 06 17:17:09 IST 2025","","Test_TC007","",""
