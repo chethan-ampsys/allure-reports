@@ -1,1 +1,1 @@
-{"total":2,"items":[{"uid":"4ad41937b8a1552d2fce3c5b33e09f5e","name":"Xeed_Login_Page","statistic":{"failed":0,"broken":0,"skipped":0,"passed":39,"unknown":0,"total":39}}]}
+{"total":2,"items":[{"uid":"4ad41937b8a1552d2fce3c5b33e09f5e","name":"Xeed_Login_Page","statistic":{"failed":0,"broken":3,"skipped":0,"passed":39,"unknown":0,"total":42}}]}
