@@ -1,20 +1,28 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
 "
-**Test Type**  
-Functional and cross-browser testing
+**Test Scenario:**  
+Attempt to log in using empty credentials  
+Username:
+Password: 
 
-**Test Scenario**  
-Reset the password using the 'Forgot Password' functionality, and then attempt to log in with the newly set password.
+**Expected Result:**  
+User should not be able to log in.
 
-**Expected Result**  
-The user should be able to log in successfully with the new password created via the 'Forgot Password' feature.
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Please fill in all fields**.
+","2137","TC007- Login with Empty Credentials","Xeed_Login_Page","Tue Jun 17 11:27:05 IST 2025","passed","Tue Jun 17 11:27:07 IST 2025","","Test_TC007","",""
+"
+**Test Scenario:**  
+Attempt to log in using an invalid password  
+Username: Sk12@gmail.com  
+Password: cpktnwt
 
-**How it is evaluated**  
-After resetting the password, the test will attempt to log in with the updated credentials. Success is confirmed by checking whether the user is redirected to the dashboard URL.
+**Expected Result:**  
+User should not be able to log in.
 
-**Test will pass if**  
-The system accepts the new password and successfully redirects the user to the dashboard.
-","0","TC008 - Verify Forgot Password Functionality","","Mon Jun 16 18:48:51 IST 2025","skipped","Mon Jun 16 18:48:51 IST 2025","","","",""
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
+","5587","TC003 - Login with Invalid Password","Xeed_Login_Page","Tue Jun 17 11:11:41 IST 2025","passed","Tue Jun 17 11:11:46 IST 2025","","Test_TC003","",""
 "
 **Test Type**  
 Functional and cross-browser
@@ -32,205 +40,6 @@ After attempting login with the old password, the system should display a snack 
 The login fails and the appropriate error message is displayed on the screen.
 ","5661","TC009 - Verify login is not allowed using old password after reset","Xeed_Login_Page","Mon Jun 16 19:00:35 IST 2025","passed","Mon Jun 16 19:00:40 IST 2025","","Test_TC009","",""
 "
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**  
-Will type in the invalid email and move on to the next field and check the visibility of **Valid email is required** text displayed or not
-
-**Input data**
-Email: cpktnwt
-
-**Test passes if**
-The **Valid email is required** text is displayed.
-","3876","TC014 – Validating ‘Please enter valid email’ message on incorrect email format in Forgot Password popup","Xeed_Login_Page","Tue Jun 17 13:19:24 IST 2025","passed","Tue Jun 17 13:19:28 IST 2025","","Test_TC013","",""
-"
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**  
-Reset the password using the 'Forgot Password' functionality, and then attempt to log in with the newly set password.
-
-**Expected Result**  
-The user should be able to log in successfully with the new password created via the 'Forgot Password' feature.
-
-**How it is evaluated**  
-After resetting the password, the test will attempt to log in with the updated credentials. Success is confirmed by checking whether the user is redirected to the dashboard URL.
-
-**Test will pass if**  
-The system accepts the new password and successfully redirects the user to the dashboard.
-","4953","TC008 - Verify Forgot Password Functionality","Xeed_Login_Page","Mon Jun 16 18:57:14 IST 2025","passed","Mon Jun 16 18:57:19 IST 2025","","Test_TC008","",""
-"
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**  
-Verify that the 'Submit' button in the Forgot Password pop-up is not visible or not enabled when required fields are left empty.
-
-**Expected Result**  
-The Submit button should NOT be clickable if any of the form fields (email, new password, confirm password) are empty.
-
-**Test Passes When**  
-- The Submit button is either **not visible**, or  
-- The Submit button is visible but **not enabled** (disabled)
-","2887","TC012 - Checking visibility and enablement of Submit button with unfilled fields","Xeed_Login_Page","Mon Jun 16 19:18:02 IST 2025","passed","Mon Jun 16 19:18:05 IST 2025","","Test_TC012","",""
-"
-**Test Type**  
-Functional and cross-browser
-
-**Test Scenario**  
-After resetting the password using the 'Forgot Password' feature, try logging in with the old password to ensure it no longer works.
-
-**Expected Result**  
-The user should not be able to log in using the old password.
-
-**How it is evaluated**  
-After attempting login with the old password, the system should display a snack bar message: `'Login failed: Invalid credentials'`.
-
-**Test will pass if**  
-The login fails and the appropriate error message is displayed on the screen.
-","4541","TC009 - Verify login is not allowed using old password after reset","Xeed_Login_Page","Mon Jun 16 19:00:50 IST 2025","passed","Mon Jun 16 19:00:55 IST 2025","","Test_TC009","",""
-"
-**Test Scenario:**  
-Attempt to log in using an invalid credentials  
-Username: Ohitr
-Password: 9902@KM
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
-","7490","TC004 - Login with Invalid Credentials","Xeed_Login_Page","Tue Jun 17 11:13:47 IST 2025","passed","Tue Jun 17 11:13:54 IST 2025","","Test_TC004","",""
-"
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**
-Entering the email, new password but entering different password in confirm password field and waiting till the **Passwords do not match text**
-
-**Input data**
-Email: Sk12@gmail.com
-New Password: cpktnwt
-Confirm Password: chethan
-
-**Test passes if**
-The **Valid email is required** text is displayed when confirm password field is entered and waited.
-","12994","TC015 - Testing the Passwords do not match text","Xeed_Login_Page","Tue Jun 17 14:56:06 IST 2025","failed","Tue Jun 17 14:56:19 IST 2025","","Test_TC014","",""
-"
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**  
-Verify that the system displays the message 'Passwords do not match' when the values in the 'New Password' and 'Confirm Password' fields are different.
-
-**Expected Result**  
-An appropriate error message should be shown, and the password should not be reset.
-
-**How it is evaluated**  
-The test checks if the 'Passwords do not match' message is displayed on the screen.
-
-**Test will pass if**  
-The system correctly shows the 'Passwords do not match' error message and prevents password reset.
-","2052","TC011 - Validating 'Passwords do not match' text for mismatched inputs","Xeed_Login_Page","Mon Jun 16 19:12:33 IST 2025","passed","Mon Jun 16 19:12:36 IST 2025","","Test_TC011","",""
-"
-**Test Scenario:**  
-Attempt to log in using empty email  
-Username: 
-Password: Sk@123
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Please fill in all fields**.
-","5473","TC005 - Login with Empty Email","Xeed_Login_Page","Tue Jun 17 11:14:55 IST 2025","passed","Tue Jun 17 11:15:00 IST 2025","","Test_TC005","",""
-"
-**Test Scenario:**  
-Attempt to log in using an invalid password  
-Username: Sk12@gmail.com  
-Password: cpktnwt
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
-","3953","TC003 - Login with Invalid Password","Xeed_Login_Page","Tue Jun 17 11:11:58 IST 2025","passed","Tue Jun 17 11:12:02 IST 2025","","Test_TC003","",""
-"
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**  
-Verify that the 'Submit' button in the Forgot Password pop-up is not visible or not enabled when required fields are left empty.
-
-**Expected Result**  
-The Submit button should NOT be clickable if any of the form fields (email, new password, confirm password) are empty.
-
-**Test Passes When**  
-- The Submit button is either **not visible**, or  
-- The Submit button is visible but **not enabled** (disabled)
-","1530","TC012 - Checking visibility and enablement of Submit button with unfilled fields","Xeed_Login_Page","Mon Jun 16 19:18:31 IST 2025","passed","Mon Jun 16 19:18:33 IST 2025","","Test_TC012","",""
-"
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**  
-Verify that the system displays the 'Password Reset Failed' message when an invalid email is used to reset the password.
-
-**Expected Result**  
-The password should not be changed, and an appropriate error message should be shown.
-
-**How it is evaluated**  
-The test checks if the 'Password Reset Failed' message is visible on the screen.
-
-**Test will pass if**  
-The password is not reset and the 'Password Reset Failed' message is displayed correctly.
-","4806","TC010 - Validating 'Password Reset Failed' for invalid email","Xeed_Login_Page","Mon Jun 16 19:07:24 IST 2025","passed","Mon Jun 16 19:07:29 IST 2025","","Test_TC010","",""
-"
-**Test Scenario:**  
-Attempt to log in using an invalid password  
-Username: Sk12@gmail.com  
-Password: cpktnwt
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
-","3831","TC003 - Login with Invalid Password","Xeed_Login_Page","Tue Jun 17 11:11:08 IST 2025","passed","Tue Jun 17 11:11:12 IST 2025","","Test_TC003","",""
-"
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**
-Entering the email, new password but entering different password in confirm password field and waiting till the **Passwords do not match text**
-
-**Input data**
-Email: Sk12@gmail.com
-New Password: cpktnwt
-Confirm Password: chethan
-
-**Test passes if**
-The **Valid email is required** text is displayed when confirm password field is entered and waited.
-","15691","TC015 - Testing the Passwords do not match text","Xeed_Login_Page","Tue Jun 17 14:56:34 IST 2025","failed","Tue Jun 17 14:56:50 IST 2025","","Test_TC014","",""
-"
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**  
-Verify that the system displays the message 'Passwords do not match' when the values in the 'New Password' and 'Confirm Password' fields are different.
-
-**Expected Result**  
-An appropriate error message should be shown, and the password should not be reset.
-
-**How it is evaluated**  
-The test checks if the 'Passwords do not match' message is displayed on the screen.
-
-**Test will pass if**  
-The system correctly shows the 'Passwords do not match' error message and prevents password reset.
-","2478","TC011 - Validating 'Passwords do not match' text for mismatched inputs","Xeed_Login_Page","Mon Jun 16 19:13:05 IST 2025","passed","Mon Jun 16 19:13:07 IST 2025","","Test_TC011","",""
-"
 **Test Scenario:**  
 Attempt to log in using empty credentials  
 Username:
@@ -243,37 +52,6 @@ User should not be able to log in.
 The login is considered failed if a snackbar displays the message **Please fill in all fields**.
 ","2656","TC007- Login with Empty Credentials","Xeed_Login_Page","Tue Jun 17 11:26:30 IST 2025","passed","Tue Jun 17 11:26:33 IST 2025","","Test_TC007","",""
 "
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**  
-Reset the password using the 'Forgot Password' functionality, and then attempt to log in with the newly set password.
-
-**Expected Result**  
-The user should be able to log in successfully with the new password created via the 'Forgot Password' feature.
-
-**How it is evaluated**  
-After resetting the password, the test will attempt to log in with the updated credentials. Success is confirmed by checking whether the user is redirected to the dashboard URL.
-
-**Test will pass if**  
-The system accepts the new password and successfully redirects the user to the dashboard.
-","4664","TC008 - Verify Forgot Password Functionality","Xeed_Login_Page","Mon Jun 16 18:57:30 IST 2025","passed","Mon Jun 16 18:57:35 IST 2025","","Test_TC008","",""
-"
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**
-Entering the email, new password but entering different password in confirm password field and waiting till the **Passwords do not match text**
-
-**Input data**
-Email: Sk12@gmail.com
-New Password: cpktnwt
-Confirm Password: chethan
-
-**Test passes if**
-The **Valid email is required** text is displayed when confirm password field is entered and waited.
-","13192","TC015 - Testing the Passwords do not match text","Xeed_Login_Page","Tue Jun 17 14:56:58 IST 2025","failed","Tue Jun 17 14:57:12 IST 2025","","Test_TC014","",""
-"
 **Test Scenario:**  
 Attempt to log in using a valid credentials
 Username: Rohit  
@@ -284,67 +62,23 @@ User should be able to log in.
 
 **How it is evaluated:**  
 This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12156","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:22:37 IST 2025","passed","Fri Jun 06 16:22:50 IST 2025","","Test_TC001","",""
+","12384","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:21:50 IST 2025","passed","Fri Jun 06 16:22:02 IST 2025","","Test_TC001","",""
 "
-**Test Scenario:**  
-Attempt to log in using an invalid email.  
-Email: Sk11@gmail.com  
-Password: Sk@123
+**Test Type**  
+Functional and cross-browser testing
 
-**Expected Result:**  
-User should not be able to log in.
+**Test Scenario**  
+Verify that the system displays the message 'Passwords do not match' when the values in the 'New Password' and 'Confirm Password' fields are different.
 
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
-","4099","TC002 - Login with Invalid Email","Xeed_Login_Page","Tue Jun 17 11:09:21 IST 2025","passed","Tue Jun 17 11:09:26 IST 2025","","Test_TC002","",""
-"
-**Test Scenario:**  
-Attempt to log in using empty email  
-Username: 
-Password: Sk@123
+**Expected Result**  
+An appropriate error message should be shown, and the password should not be reset.
 
-**Expected Result:**  
-User should not be able to log in.
+**How it is evaluated**  
+The test checks if the 'Passwords do not match' message is displayed on the screen.
 
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Please fill in all fields**.
-","2379","TC005 - Login with Empty Email","Xeed_Login_Page","Tue Jun 17 11:15:11 IST 2025","passed","Tue Jun 17 11:15:13 IST 2025","","Test_TC005","",""
-"
-**Test Scenario:**  
-Attempt to log in using an invalid email.  
-Email: Sk11@gmail.com  
-Password: Sk@123
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
-","17368","TC002 - Login with Invalid Email","Xeed_Login_Page","Tue Jun 17 11:09:57 IST 2025","passed","Tue Jun 17 11:10:14 IST 2025","","Test_TC002","",""
-"
-**Test Scenario:**  
-Attempt to log in using empty email  
-Username: 
-Password: Sk@123
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Please fill in all fields**.
-","2339","TC005 - Login with Empty Email","Xeed_Login_Page","Tue Jun 17 11:14:35 IST 2025","passed","Tue Jun 17 11:14:37 IST 2025","","Test_TC005","",""
-"
-**Test Scenario:**  
-Attempt to log in using an invalid credentials  
-Username: Ohitr
-Password: 9902@KM
-
-**Expected Result:**  
-User should not be able to log in.
-
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
-","3550","TC004 - Login with Invalid Credentials","Xeed_Login_Page","Tue Jun 17 11:13:30 IST 2025","passed","Tue Jun 17 11:13:33 IST 2025","","Test_TC004","",""
+**Test will pass if**  
+The system correctly shows the 'Passwords do not match' error message and prevents password reset.
+","2952","TC011 - Validating 'Passwords do not match' text for mismatched inputs","Xeed_Login_Page","Mon Jun 16 19:12:52 IST 2025","passed","Mon Jun 16 19:12:55 IST 2025","","Test_TC011","",""
 "
 **Test Scenario:**  
 Attempt to log in using an invalid email.  
@@ -358,30 +92,15 @@ User should not be able to log in.
 The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
 ","2820","TC002 - Login with Invalid Email","Xeed_Login_Page","Tue Jun 17 11:10:26 IST 2025","passed","Tue Jun 17 11:10:29 IST 2025","","Test_TC002","",""
 "
-**Test Type**  
-Functional and cross-browser testing
-
-**Test Scenario**  
-Will type in the invalid email and move on to the next field and check the visibility of **Valid email is required** text displayed or not
-
-**Input data**
-Email: cpktnwt
-
-**Test passes if**
-The **Valid email is required** text is displayed.
-","5018","TC014 – Validating ‘Please enter valid email’ message on incorrect email format in Forgot Password popup","Xeed_Login_Page","Tue Jun 17 13:19:09 IST 2025","passed","Tue Jun 17 13:19:14 IST 2025","","Test_TC013","",""
-"
 **Test Scenario:**  
-Attempt to log in using empty credentials  
-Username:
-Password: 
+All the mandatory fields will be filled for submit
 
 **Expected Result:**  
-User should not be able to log in.
+It should jump to next Investor Profile page after submit
 
 **How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Please fill in all fields**.
-","2874","TC007- Login with Empty Credentials","Xeed_Login_Page","Tue Jun 17 11:26:51 IST 2025","passed","Tue Jun 17 11:26:54 IST 2025","","Test_TC007","",""
+This is verified by checking the URL change; if initial verification is successful, the URL changes to `/InvestorProfile` from '/AddNewInvestor'
+","7087","TC_IO_001 - Initial Verification of a New Investor","AIF_Investor_Onboarding","Wed Jul 23 19:08:18 IST 2025","passed","Wed Jul 23 19:08:25 IST 2025","","Test_IO_001","",""
 "
 **Test Scenario:**  
 Attempt to log in using an invalid password  
@@ -393,20 +112,19 @@ User should not be able to log in.
 
 **How it is evaluated:**  
 The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
-","5587","TC003 - Login with Invalid Password","Xeed_Login_Page","Tue Jun 17 11:11:41 IST 2025","passed","Tue Jun 17 11:11:46 IST 2025","","Test_TC003","",""
+","3953","TC003 - Login with Invalid Password","Xeed_Login_Page","Tue Jun 17 11:11:58 IST 2025","passed","Tue Jun 17 11:12:02 IST 2025","","Test_TC003","",""
 "
-**Test Type**  
-Functional and cross-browser testing
+**Test Scenario:**  
+Attempt to log in using an invalid credentials  
+Username: Ohitr
+Password: 9902@KM
 
-**Test Scenario**  
-Will type in the invalid email and move on to the next field and check the visibility of **Valid email is required** text displayed or not
+**Expected Result:**  
+User should not be able to log in.
 
-**Input data**
-Email: cpktnwt
-
-**Test passes if**
-The **Valid email is required** text is displayed.
-","3067","TC014 – Validating ‘Please enter valid email’ message on incorrect email format in Forgot Password popup","Xeed_Login_Page","Tue Jun 17 13:18:49 IST 2025","passed","Tue Jun 17 13:18:52 IST 2025","","Test_TC013","",""
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
+","3550","TC004 - Login with Invalid Credentials","Xeed_Login_Page","Tue Jun 17 11:13:30 IST 2025","passed","Tue Jun 17 11:13:33 IST 2025","","Test_TC004","",""
 "
 **Test Type**  
 Functional and cross-browser testing
@@ -434,7 +152,36 @@ User should be able to log in.
 
 **How it is evaluated:**  
 This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12384","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:21:50 IST 2025","passed","Fri Jun 06 16:22:02 IST 2025","","Test_TC001","",""
+","12427","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:22:17 IST 2025","passed","Fri Jun 06 16:22:29 IST 2025","","Test_TC001","",""
+"
+**Test Type**  
+Functional and cross-browser
+
+**Test Scenario**  
+After resetting the password using the 'Forgot Password' feature, try logging in with the old password to ensure it no longer works.
+
+**Expected Result**  
+The user should not be able to log in using the old password.
+
+**How it is evaluated**  
+After attempting login with the old password, the system should display a snack bar message: `'Login failed: Invalid credentials'`.
+
+**Test will pass if**  
+The login fails and the appropriate error message is displayed on the screen.
+","4541","TC009 - Verify login is not allowed using old password after reset","Xeed_Login_Page","Mon Jun 16 19:00:50 IST 2025","passed","Mon Jun 16 19:00:55 IST 2025","","Test_TC009","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**  
+Will type in the invalid email and move on to the next field and check the visibility of **Valid email is required** text displayed or not
+
+**Input data**
+Email: cpktnwt
+
+**Test passes if**
+The **Valid email is required** text is displayed.
+","3067","TC014 – Validating ‘Please enter valid email’ message on incorrect email format in Forgot Password popup","Xeed_Login_Page","Tue Jun 17 13:18:49 IST 2025","passed","Tue Jun 17 13:18:52 IST 2025","","Test_TC013","",""
 "
 **Test Type**  
 Functional and cross-browser testing
@@ -450,21 +197,34 @@ After resetting the password, the test will attempt to log in with the updated c
 
 **Test will pass if**  
 The system accepts the new password and successfully redirects the user to the dashboard.
-","4884","TC008 - Verify Forgot Password Functionality","Xeed_Login_Page","Mon Jun 16 18:56:54 IST 2025","passed","Mon Jun 16 18:56:59 IST 2025","","Test_TC008","",""
+","0","TC008 - Verify Forgot Password Functionality","","Mon Jun 16 18:48:51 IST 2025","skipped","Mon Jun 16 18:48:51 IST 2025","","","",""
+"
+**Test Scenario:**  
+Attempt to log in using an invalid credentials  
+Username: Ohitr
+Password: 9902@KM
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
+","7490","TC004 - Login with Invalid Credentials","Xeed_Login_Page","Tue Jun 17 11:13:47 IST 2025","passed","Tue Jun 17 11:13:54 IST 2025","","Test_TC004","",""
 "
 **Test Type**  
 Functional and cross-browser testing
 
-**Test Scenario**  
-Verify that the 'Submit' button in the Forgot Password pop-up is not visible or not enabled when required fields are left empty.
+**Test Scenario**
+Entering the email, new password but entering different password in confirm password field and waiting till the **Passwords do not match text**
 
-**Expected Result**  
-The Submit button should NOT be clickable if any of the form fields (email, new password, confirm password) are empty.
+**Input data**
+Email: Sk12@gmail.com
+New Password: cpktnwt
+Confirm Password: chethan
 
-**Test Passes When**  
-- The Submit button is either **not visible**, or  
-- The Submit button is visible but **not enabled** (disabled)
-","2103","TC012 - Checking visibility and enablement of Submit button with unfilled fields","Xeed_Login_Page","Mon Jun 16 19:18:20 IST 2025","passed","Mon Jun 16 19:18:22 IST 2025","","Test_TC012","",""
+**Test passes if**
+The **Valid email is required** text is displayed when confirm password field is entered and waited.
+","15691","TC015 - Testing the Passwords do not match text","Xeed_Login_Page","Tue Jun 17 14:56:34 IST 2025","failed","Tue Jun 17 14:56:50 IST 2025","","Test_TC014","",""
 "
 **Test Type**  
 Functional and cross-browser
@@ -483,16 +243,137 @@ The login fails and the appropriate error message is displayed on the screen.
 ","4178","TC009 - Verify login is not allowed using old password after reset","Xeed_Login_Page","Mon Jun 16 19:00:15 IST 2025","passed","Mon Jun 16 19:00:19 IST 2025","","Test_TC009","",""
 "
 **Test Scenario:**  
-Attempt to log in using a valid credentials
-Username: Rohit  
-Password: Erp@123
+Attempt to log in using empty email  
+Username: 
+Password: Sk@123
 
 **Expected Result:**  
-User should be able to log in.
+User should not be able to log in.
 
 **How it is evaluated:**  
-This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
-","12427","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:22:17 IST 2025","passed","Fri Jun 06 16:22:29 IST 2025","","Test_TC001","",""
+The login is considered failed if a snackbar displays the message **Please fill in all fields**.
+","2379","TC005 - Login with Empty Email","Xeed_Login_Page","Tue Jun 17 11:15:11 IST 2025","passed","Tue Jun 17 11:15:13 IST 2025","","Test_TC005","",""
+"
+**Test Scenario:**  
+Attempt to log in using empty email  
+Username: 
+Password: Sk@123
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Please fill in all fields**.
+","5473","TC005 - Login with Empty Email","Xeed_Login_Page","Tue Jun 17 11:14:55 IST 2025","passed","Tue Jun 17 11:15:00 IST 2025","","Test_TC005","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**  
+Verify that the 'Submit' button in the Forgot Password pop-up is not visible or not enabled when required fields are left empty.
+
+**Expected Result**  
+The Submit button should NOT be clickable if any of the form fields (email, new password, confirm password) are empty.
+
+**Test Passes When**  
+- The Submit button is either **not visible**, or  
+- The Submit button is visible but **not enabled** (disabled)
+","2103","TC012 - Checking visibility and enablement of Submit button with unfilled fields","Xeed_Login_Page","Mon Jun 16 19:18:20 IST 2025","passed","Mon Jun 16 19:18:22 IST 2025","","Test_TC012","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**  
+Verify that the 'Submit' button in the Forgot Password pop-up is not visible or not enabled when required fields are left empty.
+
+**Expected Result**  
+The Submit button should NOT be clickable if any of the form fields (email, new password, confirm password) are empty.
+
+**Test Passes When**  
+- The Submit button is either **not visible**, or  
+- The Submit button is visible but **not enabled** (disabled)
+","1530","TC012 - Checking visibility and enablement of Submit button with unfilled fields","Xeed_Login_Page","Mon Jun 16 19:18:31 IST 2025","passed","Mon Jun 16 19:18:33 IST 2025","","Test_TC012","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**
+Entering the email, new password but entering different password in confirm password field and waiting till the **Passwords do not match text**
+
+**Input data**
+Email: Sk12@gmail.com
+New Password: cpktnwt
+Confirm Password: chethan
+
+**Test passes if**
+The **Valid email is required** text is displayed when confirm password field is entered and waited.
+","13192","TC015 - Testing the Passwords do not match text","Xeed_Login_Page","Tue Jun 17 14:56:58 IST 2025","failed","Tue Jun 17 14:57:12 IST 2025","","Test_TC014","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**  
+Will type in the invalid email and move on to the next field and check the visibility of **Valid email is required** text displayed or not
+
+**Input data**
+Email: cpktnwt
+
+**Test passes if**
+The **Valid email is required** text is displayed.
+","5018","TC014 – Validating ‘Please enter valid email’ message on incorrect email format in Forgot Password popup","Xeed_Login_Page","Tue Jun 17 13:19:09 IST 2025","passed","Tue Jun 17 13:19:14 IST 2025","","Test_TC013","",""
+"
+**Test Scenario:**  
+Attempt to log in using an invalid password  
+Username: Sk12@gmail.com  
+Password: cpktnwt
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
+","3831","TC003 - Login with Invalid Password","Xeed_Login_Page","Tue Jun 17 11:11:08 IST 2025","passed","Tue Jun 17 11:11:12 IST 2025","","Test_TC003","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**  
+Reset the password using the 'Forgot Password' functionality, and then attempt to log in with the newly set password.
+
+**Expected Result**  
+The user should be able to log in successfully with the new password created via the 'Forgot Password' feature.
+
+**How it is evaluated**  
+After resetting the password, the test will attempt to log in with the updated credentials. Success is confirmed by checking whether the user is redirected to the dashboard URL.
+
+**Test will pass if**  
+The system accepts the new password and successfully redirects the user to the dashboard.
+","4664","TC008 - Verify Forgot Password Functionality","Xeed_Login_Page","Mon Jun 16 18:57:30 IST 2025","passed","Mon Jun 16 18:57:35 IST 2025","","Test_TC008","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**  
+Will type in the invalid email and move on to the next field and check the visibility of **Valid email is required** text displayed or not
+
+**Input data**
+Email: cpktnwt
+
+**Test passes if**
+The **Valid email is required** text is displayed.
+","3876","TC014 – Validating ‘Please enter valid email’ message on incorrect email format in Forgot Password popup","Xeed_Login_Page","Tue Jun 17 13:19:24 IST 2025","passed","Tue Jun 17 13:19:28 IST 2025","","Test_TC013","",""
+"
+**Test Scenario:**  
+Attempt to log in using empty email  
+Username: 
+Password: Sk@123
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Please fill in all fields**.
+","2339","TC005 - Login with Empty Email","Xeed_Login_Page","Tue Jun 17 11:14:35 IST 2025","passed","Tue Jun 17 11:14:37 IST 2025","","Test_TC005","",""
 "
 **Test Type**  
 Functional and cross-browser testing
@@ -508,7 +389,33 @@ The test checks if the 'Passwords do not match' message is displayed on the scre
 
 **Test will pass if**  
 The system correctly shows the 'Passwords do not match' error message and prevents password reset.
-","2952","TC011 - Validating 'Passwords do not match' text for mismatched inputs","Xeed_Login_Page","Mon Jun 16 19:12:52 IST 2025","passed","Mon Jun 16 19:12:55 IST 2025","","Test_TC011","",""
+","2478","TC011 - Validating 'Passwords do not match' text for mismatched inputs","Xeed_Login_Page","Mon Jun 16 19:13:05 IST 2025","passed","Mon Jun 16 19:13:07 IST 2025","","Test_TC011","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**  
+Reset the password using the 'Forgot Password' functionality, and then attempt to log in with the newly set password.
+
+**Expected Result**  
+The user should be able to log in successfully with the new password created via the 'Forgot Password' feature.
+
+**How it is evaluated**  
+After resetting the password, the test will attempt to log in with the updated credentials. Success is confirmed by checking whether the user is redirected to the dashboard URL.
+
+**Test will pass if**  
+The system accepts the new password and successfully redirects the user to the dashboard.
+","4953","TC008 - Verify Forgot Password Functionality","Xeed_Login_Page","Mon Jun 16 18:57:14 IST 2025","passed","Mon Jun 16 18:57:19 IST 2025","","Test_TC008","",""
+"
+**Test Scenario:**  
+All the mandatory fields will be filled for submit
+
+**Expected Result:**  
+It should jump to next Investor Profile page after submit
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if initial verification is successful, the URL changes to `/InvestorProfile` from '/AddNewInvestor'
+","0","TC_IO_001 - Initial Verification of a New Investor","AIF_Investor_Onboarding","Wed Jul 23 19:08:29 IST 2025","broken","Wed Jul 23 19:08:29 IST 2025","","Test_IO_001","",""
 "
 **Test Scenario:**  
 Attempt to log in using empty password  
@@ -520,19 +427,55 @@ User should not be able to log in.
 
 **How it is evaluated:**  
 The login is considered failed if a snackbar displays the message **Please fill in all fields**.
-","2760","TC006- Login with Empty Password","Xeed_Login_Page","Tue Jun 17 11:16:22 IST 2025","passed","Tue Jun 17 11:16:25 IST 2025","","Test_TC006","",""
+","4195","TC006- Login with Empty Password","Xeed_Login_Page","Tue Jun 17 11:16:08 IST 2025","passed","Tue Jun 17 11:16:12 IST 2025","","Test_TC006","",""
 "
-**Test Scenario:**  
-Attempt to log in using empty password  
-Username: Sk12@gmail.com 
-Password: 
+**Test Type**  
+Functional and cross-browser testing
 
-**Expected Result:**  
-User should not be able to log in.
+**Test Scenario**  
+Verify that the system displays the message 'Passwords do not match' when the values in the 'New Password' and 'Confirm Password' fields are different.
 
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Please fill in all fields**.
-","2243","TC006- Login with Empty Password","Xeed_Login_Page","Tue Jun 17 11:15:50 IST 2025","passed","Tue Jun 17 11:15:52 IST 2025","","Test_TC006","",""
+**Expected Result**  
+An appropriate error message should be shown, and the password should not be reset.
+
+**How it is evaluated**  
+The test checks if the 'Passwords do not match' message is displayed on the screen.
+
+**Test will pass if**  
+The system correctly shows the 'Passwords do not match' error message and prevents password reset.
+","2052","TC011 - Validating 'Passwords do not match' text for mismatched inputs","Xeed_Login_Page","Mon Jun 16 19:12:33 IST 2025","passed","Mon Jun 16 19:12:36 IST 2025","","Test_TC011","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**  
+Verify that the system displays the 'Password Reset Failed' message when an invalid email is used to reset the password.
+
+**Expected Result**  
+The password should not be changed, and an appropriate error message should be shown.
+
+**How it is evaluated**  
+The test checks if the 'Password Reset Failed' message is visible on the screen.
+
+**Test will pass if**  
+The password is not reset and the 'Password Reset Failed' message is displayed correctly.
+","4806","TC010 - Validating 'Password Reset Failed' for invalid email","Xeed_Login_Page","Mon Jun 16 19:07:24 IST 2025","passed","Mon Jun 16 19:07:29 IST 2025","","Test_TC010","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**  
+Reset the password using the 'Forgot Password' functionality, and then attempt to log in with the newly set password.
+
+**Expected Result**  
+The user should be able to log in successfully with the new password created via the 'Forgot Password' feature.
+
+**How it is evaluated**  
+After resetting the password, the test will attempt to log in with the updated credentials. Success is confirmed by checking whether the user is redirected to the dashboard URL.
+
+**Test will pass if**  
+The system accepts the new password and successfully redirects the user to the dashboard.
+","4884","TC008 - Verify Forgot Password Functionality","Xeed_Login_Page","Mon Jun 16 18:56:54 IST 2025","passed","Mon Jun 16 18:56:59 IST 2025","","Test_TC008","",""
 "
 **Test Scenario:**  
 Attempt to log in using an invalid credentials  
@@ -546,17 +489,20 @@ User should not be able to log in.
 The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
 ","3181","TC004 - Login with Invalid Credentials","Xeed_Login_Page","Tue Jun 17 11:13:09 IST 2025","passed","Tue Jun 17 11:13:13 IST 2025","","Test_TC004","",""
 "
-**Test Scenario:**  
-Attempt to log in using empty password  
-Username: Sk12@gmail.com 
-Password: 
+**Test Type**  
+Functional and cross-browser testing
 
-**Expected Result:**  
-User should not be able to log in.
+**Test Scenario**
+Entering the email, new password but entering different password in confirm password field and waiting till the **Passwords do not match text**
 
-**How it is evaluated:**  
-The login is considered failed if a snackbar displays the message **Please fill in all fields**.
-","4195","TC006- Login with Empty Password","Xeed_Login_Page","Tue Jun 17 11:16:08 IST 2025","passed","Tue Jun 17 11:16:12 IST 2025","","Test_TC006","",""
+**Input data**
+Email: Sk12@gmail.com
+New Password: cpktnwt
+Confirm Password: chethan
+
+**Test passes if**
+The **Valid email is required** text is displayed when confirm password field is entered and waited.
+","12994","TC015 - Testing the Passwords do not match text","Xeed_Login_Page","Tue Jun 17 14:56:06 IST 2025","failed","Tue Jun 17 14:56:19 IST 2025","","Test_TC014","",""
 "
 **Test Type**  
 Functional and cross-browser testing
@@ -584,4 +530,88 @@ User should not be able to log in.
 
 **How it is evaluated:**  
 The login is considered failed if a snackbar displays the message **Please fill in all fields**.
-","2137","TC007- Login with Empty Credentials","Xeed_Login_Page","Tue Jun 17 11:27:05 IST 2025","passed","Tue Jun 17 11:27:07 IST 2025","","Test_TC007","",""
+","2874","TC007- Login with Empty Credentials","Xeed_Login_Page","Tue Jun 17 11:26:51 IST 2025","passed","Tue Jun 17 11:26:54 IST 2025","","Test_TC007","",""
+"
+**Test Scenario:**  
+Attempt to log in using a valid credentials
+Username: Rohit  
+Password: Erp@123
+
+**Expected Result:**  
+User should be able to log in.
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if the login is successful, the URL changes to `/dashboard`.
+","12156","TC001 - Login with Valid Credentials","Xeed_Login_Page","Fri Jun 06 16:22:37 IST 2025","passed","Fri Jun 06 16:22:50 IST 2025","","Test_TC001","",""
+"
+**Test Scenario:**  
+Attempt to log in using an invalid email.  
+Email: Sk11@gmail.com  
+Password: Sk@123
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
+","17368","TC002 - Login with Invalid Email","Xeed_Login_Page","Tue Jun 17 11:09:57 IST 2025","passed","Tue Jun 17 11:10:14 IST 2025","","Test_TC002","",""
+"
+**Test Type**  
+Functional and cross-browser testing
+
+**Test Scenario**  
+Verify that the 'Submit' button in the Forgot Password pop-up is not visible or not enabled when required fields are left empty.
+
+**Expected Result**  
+The Submit button should NOT be clickable if any of the form fields (email, new password, confirm password) are empty.
+
+**Test Passes When**  
+- The Submit button is either **not visible**, or  
+- The Submit button is visible but **not enabled** (disabled)
+","2887","TC012 - Checking visibility and enablement of Submit button with unfilled fields","Xeed_Login_Page","Mon Jun 16 19:18:02 IST 2025","passed","Mon Jun 16 19:18:05 IST 2025","","Test_TC012","",""
+"
+**Test Scenario:**  
+All the mandatory fields will be filled for submit
+
+**Expected Result:**  
+It should jump to next Investor Profile page after submit
+
+**How it is evaluated:**  
+This is verified by checking the URL change; if initial verification is successful, the URL changes to `/InvestorProfile` from '/AddNewInvestor'
+","6387","TC_IO_001 - Initial Verification of a New Investor","AIF_Investor_Onboarding","Wed Jul 23 19:07:51 IST 2025","broken","Wed Jul 23 19:07:57 IST 2025","","Test_IO_001","",""
+"
+**Test Scenario:**  
+Attempt to log in using empty password  
+Username: Sk12@gmail.com 
+Password: 
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Please fill in all fields**.
+","2243","TC006- Login with Empty Password","Xeed_Login_Page","Tue Jun 17 11:15:50 IST 2025","passed","Tue Jun 17 11:15:52 IST 2025","","Test_TC006","",""
+"
+**Test Scenario:**  
+Attempt to log in using empty password  
+Username: Sk12@gmail.com 
+Password: 
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Please fill in all fields**.
+","2760","TC006- Login with Empty Password","Xeed_Login_Page","Tue Jun 17 11:16:22 IST 2025","passed","Tue Jun 17 11:16:25 IST 2025","","Test_TC006","",""
+"
+**Test Scenario:**  
+Attempt to log in using an invalid email.  
+Email: Sk11@gmail.com  
+Password: Sk@123
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Login failed: Invalid credentials**.
+","4099","TC002 - Login with Invalid Email","Xeed_Login_Page","Tue Jun 17 11:09:21 IST 2025","passed","Tue Jun 17 11:09:26 IST 2025","","Test_TC002","",""
