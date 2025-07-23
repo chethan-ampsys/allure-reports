@@ -1,0 +1,43 @@
+from conftest import allure, By, WebDriverWait, EC, time
+@allure.feature("XEED_Ventures_Login_Page")
+@allure.title("TC007- Login with Empty Credentials")
+@allure.description("""
+**Test Scenario:**  
+Attempt to log in using empty credentials  
+Username:
+Password: 
+
+**Expected Result:**  
+User should not be able to log in.
+
+**How it is evaluated:**  
+The login is considered failed if a snackbar displays the message **Please fill in all fields**.
+""")
+
+def test_site(setup):
+    driver = setup
+    wait = WebDriverWait(driver, 10)
+
+    with allure.step("Login Page is Opened"):
+        driver.get("http://157.15.202.244:99/authentication/login")
+
+    with allure.step("Leaving the email field empty"):
+        email_field = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@id='email']")))
+        email_field.click()
+        email_field.send_keys("")
+
+    with allure.step("Leaving the password field empty"):
+        password_field = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@id='password']")))
+        password_field.click()
+        password_field.send_keys("")
+
+    with allure.step("Clicking the Login button"):
+        login_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[normalize-space()='Login']")))
+        login_button.click()
+
+    with allure.step("Validating error message for failed login"):
+        snackbar = wait.until(EC.visibility_of_element_located((By.XPATH, "//div[@class='mat-mdc-snack-bar-label mdc-snackbar__label']")))
+        assert "Please fill in all fields" in snackbar.text
+        allure.attach(snackbar.text, name="Login failed", attachment_type=allure.attachment_type.TEXT)
+
+# pytest Xeed_Login_Page/Test_TC007.py --alluredir=allure-results; allure generate allure-results --clean -o docs; git add docs; git commit -m "First Commit"; git push origin main

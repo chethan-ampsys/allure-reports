@@ -5,17 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7d1cc7e-a965-4ffe-88fa-63199fbb25c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TestingProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/12fcc551-72d0-4977-98b9-4f52ae2b9433-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/66188829-20e2-48da-a34c-dcbe5b670379-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a63c4fdd-3cc6-40de-8bc4-a1d9e7a079a9-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIF_IM_Setup/Test_IVM_001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIF_IM_Setup/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC015.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0e7a7580-a160-4da6-878c-85a98f212bdc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/19709081-5b21-400a-bed9-1044e26c987e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/26d2f522-5646-402a-bccd-4b0609e217fe-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/61de6009-b481-42b4-980f-d93223c59b10-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/af31d3c7-50ad-48ec-a0da-c3bb0de3cf21-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c5680d0d-1373-4a74-a759-ca149e84f1e7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d88459e8-5f84-4137-9b33-48c78d4c2793-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e4801ab4-243f-49f4-b387-5aa1c5493b0b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loadtest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TestingProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestingProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC001.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC002.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC003.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC003.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC004.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC004.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC005.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC005.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC006.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC006.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC007.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC007.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC008.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC008.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC009.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC009.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC010.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC010.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC011.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC011.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC012.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC012.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC013.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC013.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC014.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/Test_TC014.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xeed_Login_Page/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Xeed_Login_Page/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/12fcc551-72d0-4977-98b9-4f52ae2b9433-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/66188829-20e2-48da-a34c-dcbe5b670379-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a63c4fdd-3cc6-40de-8bc4-a1d9e7a079a9-attachment.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +58,34 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2rW7FreSbZkM9DP6lqEMkICerwH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/sagar/PycharmProjects/TestingProject",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Chetan KM/PycharmProjects/TestingProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="TestingProject" is-module-sdk="true">
@@ -66,9 +102,15 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in Test_TC001.py">
-    <configuration name="test_main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sagar\PycharmProjects\TestingProject\Xeed_Login_Page" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for Test_IVM_001.test_site">
+    <configuration name="color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestingProject" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -79,6 +121,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="TestingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\sagar\PycharmProjects\TestingProject\test_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -88,64 +154,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_check.test_site" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for Test_IVM_001.test_site" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TestingProject" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIF_IM_Setup" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_check.test_site&quot;" />
+      <option name="_new_target" value="&quot;Test_IVM_001.test_site&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_main.TestAutomation.test_addcustomer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for Test_TC001.test_site" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TestingProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_main.TestAutomation.test_addcustomer&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_main.TestAutomation.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TestingProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_main.TestAutomation.test_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in C:/Users/sagar/PycharmProjects/TestingProject/test_main.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TestingProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_main.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in Test_TC001.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="TestingProject" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -153,22 +182,67 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Xeed_Login_Page/Test_TC001.py&quot;" />
+      <option name="_new_target" value="&quot;Test_TC001.test_site&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for Xeed_Login_Page.Test_TC015.test_site" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="TestingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Xeed_Login_Page" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Xeed_Login_Page.Test_TC015.test_site&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in Test_IVM_001.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="TestingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIF_IM_Setup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/AIF_IM_Setup/Test_IVM_001.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in Test_TC001.py" />
-        <item itemvalue="Python tests.Python tests for test_check.test_site" />
-        <item itemvalue="Python tests.Python tests for test_main.TestAutomation.test_addcustomer" />
-        <item itemvalue="Python tests.Python tests in C:/Users/sagar/PycharmProjects/TestingProject/test_main.py" />
-        <item itemvalue="Python tests.Python tests for test_main.TestAutomation.test_login" />
+        <item itemvalue="Python tests.pytest for Test_IVM_001.test_site" />
+        <item itemvalue="Python tests.pytest in Test_IVM_001.py" />
+        <item itemvalue="Python.color" />
+        <item itemvalue="Python tests.pytest for Test_TC001.test_site" />
+        <item itemvalue="Python tests.pytest for Xeed_Login_Page.Test_TC015.test_site" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -178,8 +252,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736662876517</updated>
+      <workItem from="1753248762038" duration="1547000" />
+      <workItem from="1753257108914" duration="52000" />
+      <workItem from="1753259265202" duration="367000" />
+      <workItem from="1753259680905" duration="391000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -191,5 +272,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

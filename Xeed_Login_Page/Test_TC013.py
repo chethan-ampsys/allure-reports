@@ -1,9 +1,4 @@
-import pytest
-import allure
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.by import By
-
+from conftest import allure, By, WebDriverWait, EC, time
 @allure.feature("XEED_Ventures_Login_Page")
 @allure.title("TC014 – Validating ‘Please enter valid email’ message on incorrect email format in Forgot Password popup")
 @allure.description("""

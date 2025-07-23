@@ -1,11 +1,6 @@
-import pytest
-import allure
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-
+from conftest import allure, By, WebDriverWait, EC, time
 @allure.feature("XEED_Ventures_Login_Page")
-@allure.title("TC015 - Testing the **Passwords do not match** text")
+@allure.title("TC015 - Testing the Passwords do not match text")
 @allure.description("""
 **Test Type**  
 Functional and cross-browser testing
@@ -19,7 +14,7 @@ New Password: cpktnwt
 Confirm Password: chethan
 
 **Test passes if**
-The **Valid email is required** text is displayed.
+The **Valid email is required** text is displayed when confirm password field is entered and waited.
 """)
 
 def test_suite(setup):
@@ -49,8 +44,12 @@ def test_suite(setup):
         element.send_keys("chethan")
 
     with allure.step("Validating 'Passwords do not match' error is shown"):
-        element = wait.until(EC.visibility_of_element_located((By.XPATH, "//div[@class='error ng-star-inserted']")))
-        assert element.is_displayed(), "Expected 'Passwords do not match' message not visible"
-        allure.attach(element.text, name= "Text displayed", attachment_type=allure.attachment_type.TEXT )
+        try:
+            element = wait.until(EC.visibility_of_element_located((By.XPATH, "//div[@class='error ng-star-inserted']")))
+            assert element.is_displayed(), "Expected 'Passwords do not match' message not visible"
+            allure.attach(element.text, name= "Text displayed", attachment_type=allure.attachment_type.TEXT )
+
+        except:
+            pytest.fail("Element not found within the wait time")
 
 # pytest Xeed_Login_Page/Test_TC014.py --alluredir=allure-results; allure generate allure-results --clean -o docs; git add docs; git commit -m "First Commit"; git push origin main
