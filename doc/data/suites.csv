@@ -1,0 +1,64 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+**Test Scenario:**  
+PAN Mandatory field will be left empty and submitted.
+This is a negative testcase and it should fail 
+
+**Expected Result:**  
+It should not redirect to the Investor Profile page.
+
+**How it is evaluated:**  
+Verified by checking if URL changes to `/InvestorProfile`.
+","23455","TC_IO_001 - Initial Verification of a New Investor","AIF_Investor_Onboarding","Thu Jul 24 16:45:27 IST 2025","broken","Thu Jul 24 16:45:50 IST 2025","","Test_IO_002","",""
+"
+**Test Scenario:**  
+All the mandatory fields will be filled and form is submitted.
+
+**Expected Result:**  
+It should redirect to the Investor Profile page.
+
+**How it is evaluated:**  
+Verified by checking if URL changes to `/InvestorProfile`.
+","13905","TC_IO_001 - Initial Verification of a New Investor","AIF_Investor_Onboarding","Thu Jul 24 15:51:43 IST 2025","passed","Thu Jul 24 15:51:57 IST 2025","","Test_IO_001","",""
+"
+**Test Scenario:**  
+PAN Mandatory field will be left empty and submitted.
+This is a negative testcase and it should fail 
+
+**Expected Result:**  
+It should not redirect to the Investor Profile page.
+
+**How it is evaluated:**  
+Verified by checking if URL changes to `/InvestorProfile`.
+","21939","TC_IO_001 - Initial Verification of a New Investor","AIF_Investor_Onboarding","Thu Jul 24 16:46:05 IST 2025","broken","Thu Jul 24 16:46:27 IST 2025","","Test_IO_002","",""
+"
+**Test Scenario:**  
+PAN Mandatory field will be left empty and submitted.
+This is a negative testcase and it should fail 
+
+**Expected Result:**  
+It should not redirect to the Investor Profile page.
+
+**How it is evaluated:**  
+Verified by checking if URL changes to `/InvestorProfile`.
+","20807","TC_IO_001 - Initial Verification of a New Investor","AIF_Investor_Onboarding","Thu Jul 24 16:46:33 IST 2025","broken","Thu Jul 24 16:46:53 IST 2025","","Test_IO_002","",""
+"
+**Test Scenario:**  
+All the mandatory fields will be filled and form is submitted.
+
+**Expected Result:**  
+It should redirect to the Investor Profile page.
+
+**How it is evaluated:**  
+Verified by checking if URL changes to `/InvestorProfile`.
+","13272","TC_IO_001 - Initial Verification of a New Investor","AIF_Investor_Onboarding","Thu Jul 24 15:52:02 IST 2025","passed","Thu Jul 24 15:52:16 IST 2025","","Test_IO_001","",""
+"
+**Test Scenario:**  
+All the mandatory fields will be filled and form is submitted.
+
+**Expected Result:**  
+It should redirect to the Investor Profile page.
+
+**How it is evaluated:**  
+Verified by checking if URL changes to `/InvestorProfile`.
+","18129","TC_IO_001 - Initial Verification of a New Investor","AIF_Investor_Onboarding","Thu Jul 24 15:51:08 IST 2025","passed","Thu Jul 24 15:51:27 IST 2025","","Test_IO_001","",""
