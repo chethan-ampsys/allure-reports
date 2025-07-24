@@ -8,7 +8,7 @@ It should not redirect to the Investor Profile page.
 
 **How it is evaluated:**  
 Verified by checking if URL changes to `/InvestorProfile if not then test gets passed`.
-","10480","Negative_TC_IO_001 - Initial Verification of a New Investor without PAN","AIF_Investor_Onboarding","Thu Jul 24 17:04:13 IST 2025","passed","Thu Jul 24 17:04:23 IST 2025","","Test_IO_002","",""
+","11710","Negative_TC_IO_001 - Initial Verification of a New Investor without PAN","AIF_Investor_Onboarding","Thu Jul 24 17:08:35 IST 2025","passed","Thu Jul 24 17:08:47 IST 2025","","Test_IO_002","",""
 "
 **Test Scenario:**  
 All the mandatory fields will be filled and form is submitted.
@@ -18,7 +18,7 @@ It should redirect to the Investor Profile page.
 
 **How it is evaluated:**  
 Verified by checking if URL changes to `/InvestorProfile`.
-","12270","Positive_TC_IO_001 - Initial Verification of a New Investor with all mandatory fields","AIF_Investor_Onboarding","Thu Jul 24 16:50:58 IST 2025","passed","Thu Jul 24 16:51:11 IST 2025","","Test_IO_001","",""
+","12410","Positive_TC_IO_001 - Initial Verification of a New Investor with all mandatory fields","AIF_Investor_Onboarding","Thu Jul 24 17:07:32 IST 2025","passed","Thu Jul 24 17:07:45 IST 2025","","Test_IO_001","",""
 "
 **Test Scenario:**  
 PAN Mandatory field will be left empty and submitted.
@@ -28,7 +28,7 @@ It should not redirect to the Investor Profile page.
 
 **How it is evaluated:**  
 Verified by checking if URL changes to `/InvestorProfile if not then test gets passed`.
-","10967","Negative_TC_IO_001 - Initial Verification of a New Investor without PAN","AIF_Investor_Onboarding","Thu Jul 24 17:03:57 IST 2025","passed","Thu Jul 24 17:04:08 IST 2025","","Test_IO_002","",""
+","11837","Negative_TC_IO_001 - Initial Verification of a New Investor without PAN","AIF_Investor_Onboarding","Thu Jul 24 17:08:08 IST 2025","passed","Thu Jul 24 17:08:20 IST 2025","","Test_IO_002","",""
 "
 **Test Scenario:**  
 All the mandatory fields will be filled and form is submitted.
@@ -38,17 +38,7 @@ It should redirect to the Investor Profile page.
 
 **How it is evaluated:**  
 Verified by checking if URL changes to `/InvestorProfile`.
-","12100","Positive_TC_IO_001 - Initial Verification of a New Investor with all mandatory fields","AIF_Investor_Onboarding","Thu Jul 24 16:50:13 IST 2025","passed","Thu Jul 24 16:50:25 IST 2025","","Test_IO_001","",""
-"
-**Test Scenario:**  
-All the mandatory fields will be filled and form is submitted.
-
-**Expected Result:**  
-It should redirect to the Investor Profile page.
-
-**How it is evaluated:**  
-Verified by checking if URL changes to `/InvestorProfile`.
-","12996","Positive_TC_IO_001 - Initial Verification of a New Investor with all mandatory fields","AIF_Investor_Onboarding","Thu Jul 24 16:50:39 IST 2025","passed","Thu Jul 24 16:50:52 IST 2025","","Test_IO_001","",""
+","12556","Positive_TC_IO_001 - Initial Verification of a New Investor with all mandatory fields","AIF_Investor_Onboarding","Thu Jul 24 17:07:50 IST 2025","passed","Thu Jul 24 17:08:03 IST 2025","","Test_IO_001","",""
 "
 **Test Scenario:**  
 PAN Mandatory field will be left empty and submitted.
@@ -58,4 +48,14 @@ It should not redirect to the Investor Profile page.
 
 **How it is evaluated:**  
 Verified by checking if URL changes to `/InvestorProfile if not then test gets passed`.
-","11886","Negative_TC_IO_001 - Initial Verification of a New Investor without PAN","AIF_Investor_Onboarding","Thu Jul 24 17:03:30 IST 2025","passed","Thu Jul 24 17:03:42 IST 2025","","Test_IO_002","",""
+","10704","Negative_TC_IO_001 - Initial Verification of a New Investor without PAN","AIF_Investor_Onboarding","Thu Jul 24 17:08:52 IST 2025","passed","Thu Jul 24 17:09:03 IST 2025","","Test_IO_002","",""
+"
+**Test Scenario:**  
+All the mandatory fields will be filled and form is submitted.
+
+**Expected Result:**  
+It should redirect to the Investor Profile page.
+
+**How it is evaluated:**  
+Verified by checking if URL changes to `/InvestorProfile`.
+","14355","Positive_TC_IO_001 - Initial Verification of a New Investor with all mandatory fields","AIF_Investor_Onboarding","Thu Jul 24 17:07:04 IST 2025","broken","Thu Jul 24 17:07:18 IST 2025","","Test_IO_001","",""
